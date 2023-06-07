@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Numbers Game - Shubham Deolus"
+        android:textSize="24sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridbuttton7" />
+
+    <Button
+        android:id="@+id/gridbuttton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="4"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gridbuttton8"
+        app:layout_constraintTop_toBottomOf="@+id/gridbuttton6" />
+
+    <Button
+        android:id="@+id/gridbuttton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="2"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridbuttton4"
+        app:layout_constraintEnd_toStartOf="@+id/gridbuttton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gridbuttton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="5"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/gridbuttton9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gridbuttton7"
+        app:layout_constraintTop_toBottomOf="@+id/gridbuttton5" />
+
+    <Button
+        android:id="@+id/gridbuttton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="8"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/gridbuttton8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridbuttton4" />
+
+    <Button
+        android:id="@+id/gridbuttton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="0"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridbuttton9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gridbuttton5"
+        app:layout_constraintTop_toBottomOf="@+id/gridbuttton3" />
+
+    <Button
+        android:id="@+id/gridbuttton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="0"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridbuttton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gridbuttton2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gridbuttton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="5"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridbuttton8"
+        app:layout_constraintEnd_toStartOf="@+id/gridbuttton6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gridbuttton4"
+        app:layout_constraintTop_toBottomOf="@+id/gridbuttton2" />
+
+    <Button
+        android:id="@+id/gridbuttton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="5"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridbuttton7"
+        app:layout_constraintEnd_toStartOf="@+id/gridbuttton5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridbuttton1" />
+
+    <Button
+        android:id="@+id/gridbuttton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="handleClick"
+        android:padding="25dp"
+        android:text="0"
+        android:textColor="#100E0E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridbuttton5"
+        app:layout_constraintEnd_toStartOf="@+id/gridbuttton3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gridbuttton1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="handleClick"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="50dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
